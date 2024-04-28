@@ -8,13 +8,13 @@ For Windows
   -Download and Install Android Studio  - https://developer.android.com/studio
   Select the "SDK Platforms" tab from within the SDK Manager, then check the box next to "Show Package Details" in the bottom right corner. Look for and expand the Android 14 (UpsideDownCake) entry, then make sure the following items are checked:
 
-    Android SDK Platform 34
+  Android SDK Platform 34
     Intel x86 Atom_64 System Image or Google APIs Intel x86 Atom System Image
     Next, select the "SDK Tools" tab and check the box next to "Show Package Details" here as well. Look for and expand the Android SDK Build-Tools entry, then make sure that 34.0.0 is selected.
     Configure the ANDROID_HOME environment variable
     The React Native tools require some environment variables to be set up in order to build apps with native code.
     
-    Open the Windows Control Panel.
+  Open the Windows Control Panel.
     Click on User Accounts, then click User Accounts again
     Click on Change my environment variables
     Click on New... to create a new ANDROID_HOME user variable that points to the path to your Android SDK:
